@@ -1,0 +1,6 @@
+import { Plugin } from 'vite';
+export declare const plugin: (opts?: {
+    debug?: boolean | undefined;
+    optimize?: boolean | undefined;
+} | undefined) => Plugin;
+export default plugin;
